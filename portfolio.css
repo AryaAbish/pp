@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.section{
+    /* height: 100vh; */
+    width: 100%;
+}
+
+#home{
+padding-top: 300px;
+padding-left: 200px;
+font-weight: bold;
+background-image: url(./img/portfolio-background-4-1080x507.gif);
+}
+.details{
+    font-weight: bold;
+    justify-content: center;
+}
+.sec{
+    background-color: bisque;
+    color: brown;
+}
+.sec:hover{
+    color: black;
+}
+div.bor{
+    border: 2px solid white;
+}
+  #about{
+    background-image: url(./img/OIP\ \(1\).jpeg);
+  }
+  #training{
+    background-image: url(./img/OIP.jpeg);
+    background-size: cover;
+    color: bisque;
+  }
+  #project{
+    background-image: url(./img/wp7453739.webp);
+    background-size: cover;
+    color: white;
+  }
+  #education{
+    background-image: url(./img/OIP\ \(2\).jpeg);
+  }
+  
+  .navbar{
+    font-weight: bold;
+  }
+  ul li a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.3);
+  }
+ h1{
+  padding-top: 50px;
+ }
