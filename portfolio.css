@@ -5,7 +5,7 @@
   background-color:lightslategrey;
 }
 .section{
-  /* height: 100vh; */
+  height: 100%;
   width: 100%;
 }
 
@@ -14,14 +14,13 @@ padding-top: 300px;
 font-weight: bold;
 margin-bottom: 300px;
 color:white;
-/* background-image: url(./img/portfolio-background-4-1080x507.gif); */
 }
 .details{
   font-weight: bold;
   justify-content: center;
 }
 div.bor{
-  border: 2px solid white;
+  border: 2px solid black;
 }
 .navbar{
   font-weight: bold;
@@ -29,7 +28,6 @@ div.bor{
 ul li a:hover{
   background-color: white;
   color: black;
-  transform: scale(1.3);
 }
 h1{
 padding-top: 50px;
@@ -41,4 +39,7 @@ padding-bottom: 50px;
 }
 .card h5, .skill{
 color: white;
+}
+#education .row{
+  color:white ;
 }
